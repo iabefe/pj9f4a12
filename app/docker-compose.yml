@@ -1,7 +1,0 @@
-services:
-  webphp: # L'etiqueta identificadora d'aquest servei dins de docker-compose.yml
-    image: calcul:1.0 # El nom que veurem quan fem docker images
-    build: calcul.php
-    container_name: calcul # El nom que veurem quan fem docker ps -a
-     ports:
-      - "80:80"
